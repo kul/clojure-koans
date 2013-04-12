@@ -19,7 +19,7 @@
   (loop [ n   n 
           acc 1]
     (if (= n 0)
-      1
+      acc
       (recur (dec n)(* n acc)))))
 
 (meditations
